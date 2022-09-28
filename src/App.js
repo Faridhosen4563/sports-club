@@ -12,12 +12,12 @@ function App() {
     setCart(newCart)
   }
   return (
-    <div className='grid grid-cols-1 lg:grid-cols-5 gap-4 '>
+    <div className='flex flex-col-reverse lg:grid lg:grid-cols-5 gap-4 '>
       <div className='lg:col-span-4 bg-slate-300'>
         <Club handelAddToList={handelAddToList}
         ></Club>
       </div>
-      <div>
+      <div className='w-10/12 mx-auto lg:w-full'>
         <Activity
           cart={cart}
         ></Activity>

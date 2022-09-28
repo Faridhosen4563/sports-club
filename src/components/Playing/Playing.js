@@ -1,7 +1,7 @@
-import React from 'react';
+
 import './Playing.css'
 
-const Exercise = ({ cart }) => {
+const Exercise = ({ cart, time }) => {
     let total = 0;
     for (const sport of cart) {
         total = total + sport.time;
@@ -15,7 +15,7 @@ const Exercise = ({ cart }) => {
             </div>
             <div className='my-4 bg-slate-300 py-2 px-4 rounded-md css-custom'>
                 <h2 className='text-base font-medium'>Break Time</h2>
-                <p>min</p>
+                <p>{time}min</p>
             </div>
         </div>
     );
