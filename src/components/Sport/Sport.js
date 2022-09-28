@@ -1,9 +1,7 @@
 import React from 'react';
 
-const Sport = ({ sport }) => {
-    console.log(sport);
+const Sport = ({ sport, handelAddToList }) => {
     const { img, name, time } = sport;
-    console.log(img);
     return (
         <div className="card w-full bg-base-100 shadow-xl">
             <figure className="px-10 pt-10">
@@ -13,7 +11,7 @@ const Sport = ({ sport }) => {
                 <h2 className="card-title">{name}</h2>
                 <p>Playing Time : {time} min</p>
                 <div className="card-actions mt-2">
-                    <button className="btn btn-outline btn-primary w-full">Add To List</button>
+                    <button onClick={() => handelAddToList(sport)} className="btn btn-outline btn-primary w-full">Add To List</button>
                 </div>
             </div>
         </div>

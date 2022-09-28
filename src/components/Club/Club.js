@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Head from '../Header/Head';
 import Sport from '../Sport/Sport';
 
-const Main = () => {
+const Club = ({ handelAddToList }) => {
     const [sports, setSports] = useState([]);
     useEffect(() => {
         fetch("sports.json")
@@ -18,6 +18,7 @@ const Main = () => {
                     sports.map(sport => <Sport
                         key={sport.id}
                         sport={sport}
+                        handelAddToList={handelAddToList}
                     ></Sport>)
                 }
             </div>
@@ -25,4 +26,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default Club;
