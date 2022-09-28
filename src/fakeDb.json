@@ -1,0 +1,74 @@
+[
+  {
+    "id": "63345b79b6bf0b8fd52630e1",
+    "name": "Cricket",
+    "img": "https://ibb.co/5RHZWQG",
+    "time": 35
+  },
+  {
+    "id": "63345b79f2805cd6b45e506c",
+    "name": "Football",
+    "img": "https://ibb.co/vPg4JYJ",
+    "time": 22
+  },
+  {
+    "id": "63345b796a08fa4e85f49e8f",
+    "name": "Badminton",
+    "img": "https://ibb.co/WKSKdkZ",
+    "time": 23
+  },
+  {
+    "id": "63345b79f045eb896f4fc9f9",
+    "name": "Chess",
+    "img": "https://ibb.co/cr1T55D",
+    "time": 34
+  },
+  {
+    "id": "63345b7901e65be01f128170",
+    "name": "Hockey",
+    "img": "https://ibb.co/nffy8gr",
+    "time": 20
+  },
+  {
+    "id": "63345b79fb3f92b5ea250c15",
+    "name": "Basketball",
+    "img": "https://ibb.co/mNbGGYq",
+    "time": 39
+  },
+  {
+    "id": "63345b796776796db3bbd10c",
+    "name": "Volleyball",
+    "img": "https://ibb.co/vc26w8j",
+    "time": 28
+  },
+  {
+    "id": "63345b79b92d4f73aca282bf",
+    "name": "Tennis",
+    "img": "https://ibb.co/RCQZX4R",
+    "time": 28
+  },
+  {
+    "id": "63345b791683825d11828f33",
+    "name": "Swimming",
+    "img": "https://ibb.co/HYWDvBm",
+    "time": 25
+  },
+  {
+    "id": "63345b7958e609259140b181",
+    "name": "Golf",
+    "img": "https://ibb.co/NZrT8m8",
+    "time": 27
+  },
+  {
+    "id": "63345b79b462536a3bcda24c",
+    "name": "Darts",
+    "img": "https://ibb.co/f2XFZPw",
+    "time": 34
+  },
+  {
+    "id": "63345b79a20c93b34151bd06",
+    "name": "Cycling",
+    "img": "https://ibb.co/3cxzh43",
+    "time": 28
+  }
+]
