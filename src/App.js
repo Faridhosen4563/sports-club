@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Club from './components/Club/Club';
 import Activity from './components/Activity/Activity';

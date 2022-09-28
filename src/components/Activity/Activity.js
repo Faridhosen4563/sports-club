@@ -1,13 +1,22 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Break from '../Break/Break';
 import Playing from '../Playing/Playing';
 import Details from '../Person/Details/Details';
 import Person from '../Person/Person';
+import Swal from 'sweetalert2'
 
 const Select = ({ cart }) => {
     const [time, setTime] = useState(0)
     const selectTime = selectedTime => {
         setTime(selectedTime);
+    }
+
+    const handelActivity = () => {
+        Swal.fire(
+            'Good job!',
+            'Activity Completed!',
+            'success'
+        )
     }
 
 
@@ -20,7 +29,7 @@ const Select = ({ cart }) => {
             <Playing cart={cart} time={time}></Playing>
 
             <div className='text-white mb-12 lg:mb-20'>
-                <button className="btn btn-outline btn-primary w-full font-bold">Activity Completed</button>
+                <button onClick={() => handelActivity()} className="btn btn-outline btn-primary w-full font-bold">Activity Completed</button>
             </div>
 
         </div>
