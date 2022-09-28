@@ -5,8 +5,8 @@ import Activity from './components/Activity/Activity';
 
 function App() {
   return (
-    <div className='grid grid-cols-5 gap-4 '>
-      <div className='col-span-4'>
+    <div className='md:grid grid-cols-5 gap-4 '>
+      <div className='col-span-4 bg-slate-300'>
         <Club></Club>
       </div>
       <div>
