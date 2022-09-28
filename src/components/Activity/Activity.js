@@ -2,7 +2,7 @@ import React from 'react';
 
 const Select = () => {
     return (
-        <div>
+        <div >
             <h2>pasher part</h2>
         </div>
     );

@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import Main from './components/Main/Main';
-import Select from './components/Select/Select';
+import Club from './components/Club/Club';
+import Activity from './components/Activity/Activity';
 
 function App() {
   return (
-    <div className='grid grid-cols-5 gap-4'>
+    <div className='grid grid-cols-5 gap-4 '>
       <div className='col-span-4'>
-        <Main></Main>
+        <Club></Club>
       </div>
       <div>
-        <Select></Select>
+        <Activity></Activity>
       </div>
     </div>
   );
