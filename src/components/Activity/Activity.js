@@ -32,7 +32,7 @@ const Select = ({ cart }) => {
             <Playing cart={cart} breakTime={time}></Playing>
 
             <div className='text-white mb-12 lg:mb-20'>
-                <button onClick={() => handelActivity()} className="btn btn-outline btn-primary w-full font-bold">Activity Completed</button>
+                <button onClick={() => handelActivity()} className="btn btn-outline w-full font-bold">Activity Completed</button>
             </div>
 
         </div>

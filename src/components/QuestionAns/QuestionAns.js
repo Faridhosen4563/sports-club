@@ -2,7 +2,7 @@ import React from 'react';
 
 const QuestionAns = () => {
     return (
-        <div className='border-2 border-stone-400 p-4 rounded-lg mb-10'>
+        <div className='border-2 border-stone-400 p-4 rounded-lg mb-10 text-white'>
             <h2 className='text-2xl font-bold mb-4'>Question & Answer</h2>
             <div className='my-2'>
                 <h2 className='text-xl font-medium mb-2'>1. How does react work?</h2>

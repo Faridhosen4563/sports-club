@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const Sport = ({ sport, handelAddToList }) => {
     const { img, name, time } = sport;
@@ -11,7 +13,7 @@ const Sport = ({ sport, handelAddToList }) => {
                 <h2 className="card-title">{name}</h2>
                 <p>Playing Time : {time} min</p>
                 <div className="card-actions mt-2">
-                    <button onClick={() => handelAddToList(sport)} className="btn btn-outline btn-primary w-full">Add To List</button>
+                    <button onClick={() => handelAddToList(sport)} className="btn btn-outline  w-full">Add To List <FontAwesomeIcon className='ml-4' icon={faArrowRight} /></button>
                 </div>
             </div>
         </div>
