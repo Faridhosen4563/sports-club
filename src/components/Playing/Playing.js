@@ -1,7 +1,8 @@
 
+import { useEffect, useState } from 'react';
 import './Playing.css'
 
-const Exercise = ({ cart, time }) => {
+const Exercise = ({ cart, breakTime }) => {
     let total = 0;
     for (const sport of cart) {
         total = total + sport.time;
@@ -15,7 +16,7 @@ const Exercise = ({ cart, time }) => {
             </div>
             <div className='my-4 bg-slate-300 py-2 px-4 rounded-md css-custom'>
                 <h2 className='text-base font-medium'>Break Time</h2>
-                <p>{time}min</p>
+                <p>{breakTime}min</p>
             </div>
         </div>
     );
